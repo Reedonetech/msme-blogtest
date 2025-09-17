@@ -23,7 +23,21 @@ const mockBlogPosts = [
     date: "2024-09-10",
     author: "Sports Analyst",
     readTime: "5 min read"
-  }
+  },
+  {
+    id: 3,
+    title: "Rising Young Talents",
+    description: "Meet the under-21 players making waves in European football.",
+    content: "Scouts and fans alike are keeping an eye on several promising players this year...",
+    date: "2024-09-15"
+  },
+  {
+    id: 4,
+    title: "Champions League Predictions",
+    description: "Who looks set to dominate Europe’s biggest stage?",
+    content: "The Champions League group stage is heating up, with underdogs surprising favorites...",
+    date: "2024-09-22"
+  },
 ];
 
 export default function BlogPost() {
