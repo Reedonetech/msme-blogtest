@@ -1,5 +1,5 @@
 "use client";
-import Navigation from "../components/navigation";
+import Navigation from "../../app/components/Navigation";
 import BlogList from "./bloglist/page";
 
 export default function BlogsPage() {
