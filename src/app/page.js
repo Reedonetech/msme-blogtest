@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Footer from '../app/components/footer';
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-gray-50 overflow-hidden">
+    <div className="bg-gray-50 min-h-screen flex flex-col">
+    <div className="relative flex-grow overflow-hidden">
       {/* Floating Football Background */}
       <motion.div
         className="absolute top-20 left-10 w-28 h-28"
@@ -129,6 +131,8 @@ export default function Home() {
           ))}
         </div>
       </div>
+    </div>
+      <Footer />
     </div>
   );
 }

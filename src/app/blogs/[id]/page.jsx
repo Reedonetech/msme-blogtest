@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import Footer from '../../components/footer';
+import { div } from 'framer-motion/client';
 
 const mockBlogPosts = [
   {
@@ -58,6 +60,7 @@ export default function BlogPost() {
   }
 
   return (
+    <div className="flex flex-col min-h-screen bg-gray-50">
     <motion.div
       className="min-h-screen bg-gray-50 py-12"
       initial={{ opacity: 0 }}
@@ -99,5 +102,7 @@ export default function BlogPost() {
         </motion.article>
       </div>
     </motion.div>
+      <Footer />
+    </div>
   );
 }
