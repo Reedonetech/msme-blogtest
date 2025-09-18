@@ -5,7 +5,7 @@ import Navigation from '../../src/app/components/Navigation';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Reedone Blog',
+  title: 'Msme Blog',
   description: 'A simple blog built for sport lover',
 };
 

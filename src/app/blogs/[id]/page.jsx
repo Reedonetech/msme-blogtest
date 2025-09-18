@@ -66,7 +66,7 @@ export default function BlogPost() {
     >
       <div className="container mx-auto px-4 max-w-3xl">
         <Link href="/blogs" className="text-blue-500 hover:text-blue-700 font-medium mb-6 inline-block">
-          ← Back to Football Blogs
+          ← Back to Msme Blogs
         </Link>
 
         <motion.article

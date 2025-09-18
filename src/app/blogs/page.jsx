@@ -67,7 +67,7 @@ export default function BlogList() {
       transition={{ duration: 0.6 }}
     >
       <div className="container mx-auto px-4">
-        <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">Football Blogs</h1>
+        <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">Msme Blogs</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {posts.map((post, index) => (
             <motion.div

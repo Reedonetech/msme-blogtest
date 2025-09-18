@@ -34,9 +34,9 @@ export default function Home() {
       </motion.div>
 
       {/* Hero Section */}
-      <div className="relative container mx-auto px-4 py-20 text-center">
+      <div className="relative container mx-auto px-4 lg:py-18 py-8 text-center">
         <motion.h1
-          className="text-5xl font-extrabold mb-6 text-gray-900"
+          className="lg:text-5xl text-[25px] font-extrabold mb-6 text-gray-900"
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -45,7 +45,7 @@ export default function Home() {
         </motion.h1>
 
         <motion.p
-          className="text-xl text-gray-700 mb-10 max-w-2xl mx-auto leading-relaxed"
+          className="lg:text-xl text-[16px] text-gray-700 mb-10 max-w-2xl mx-auto leading-relaxed"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -55,7 +55,7 @@ export default function Home() {
         </motion.p>
 
         <motion.div
-          className="flex justify-center gap-4"
+          className="lg:flex lg:flex-row flex flex-col justify-center gap-4"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.4 }}
@@ -76,9 +76,9 @@ export default function Home() {
       </div>
 
       {/* Featured Section */}
-      <div className="relative container mx-auto px-4 py-16">
+      <div className="relative container mx-auto px-4 lg:py-16 py-5">
         <motion.h2
-          className="text-3xl font-bold mb-12 text-center text-gray-900"
+          className="lg:text-3xl text-[25px] font-bold mb-6 text-center text-gray-900"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
@@ -86,7 +86,7 @@ export default function Home() {
           Featured Football Posts
         </motion.h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto text-center lg:text-start">
           {[
             {
               id: 1,
